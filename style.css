@@ -552,7 +552,6 @@ section:nth-child(odd){
     transition: all .3s ease;
 }
 .description p{
-    /* color: #b0b0ba; */
     font-weight: 800;
     color:#181d2a;
     padding-top: 5px;
@@ -596,10 +595,10 @@ section:nth-child(odd){
 }
 
 @media screen and (max-width:900px) {
-    .card{
+    /* .card{
         height: 350px;
         width: 40px;
-    }
+    } */
     .input-rdio:checked + label{
         width: 450px;
     }
@@ -612,7 +611,7 @@ section:nth-child(odd){
 }
 @media screen and (max-width:770px) {
     .card{
-        height: 350px;
+        height: 420px;
         width: 40px;
     }
     .input-rdio:checked + label{
@@ -623,10 +622,6 @@ section:nth-child(odd){
     }
 }
 @media screen and (max-width:665px) {
-    .card{
-        height: 290px;
-        width: 40px;
-    }
     .input-rdio:checked + label{
         width: 290px;
     }
